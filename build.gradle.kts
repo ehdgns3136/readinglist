@@ -28,6 +28,7 @@ dependencies {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
         exclude(group = "com.fasterxml.jackson.core")
     }
+    implementation("org.springframework.boot:spring-boot-starter-security")
 }
 
 tasks.withType<Test> {
